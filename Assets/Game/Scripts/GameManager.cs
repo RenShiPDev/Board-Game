@@ -50,8 +50,8 @@ public class GameManager : MonoBehaviour
         GameManager.Instance.EndGameMenu.gameObject.SetActive(true);
         GameManager.Instance.EndGameMenu.SetStepsText();
 
-        GameManager.Instance.DiceButton.gameObject.SetActive(false);
         GameManager.Instance.RestartButton.gameObject.SetActive(true);
+        GameManager.Instance.DiceButton.gameObject.SetActive(false);
     }
 
     public void StartGame()
